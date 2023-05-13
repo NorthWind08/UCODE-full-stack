@@ -1,0 +1,15 @@
+.japan {
+    border: 2px solid lightgray;
+    width: 100px;
+    height: 100px;
+    padding: 50px 100px;
+}
+
+.japan::after {
+    border-radius: 50%;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    content: "";
+    position: absolute;
+}

@@ -1,0 +1,25 @@
+#Search {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+#Search > button {
+    color: green;
+    padding: 0px 10px;
+    height: 2em;
+    width: fit-content;
+}
+
+#Search > button:hover {
+    color: red;
+}
+
+#Search > input {
+    color: green;
+    padding: 0px 10px;
+    height: 2em;
+}
+
+#Search > input:hover {
+    color: red;
+}
