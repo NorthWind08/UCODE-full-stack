@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#Search {
+    display: flex;
+    align-items: baseline;
+}
+
+input {
+    flex: 1;
+}
+
+input, button {
+    color: red;
+}
+
+input:hover, button:hover {
+    color: green;
+}
